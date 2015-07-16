@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AFE9009184024FA005BFA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE9008184024FA005BFA7F /* Foundation.framework */; };
+		9AFE900B184024FA005BFA7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE900A184024FA005BFA7F /* CoreGraphics.framework */; };
+		9AFE900D184024FA005BFA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE900C184024FA005BFA7F /* UIKit.framework */; };
+		9AFE9013184024FA005BFA7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE9011184024FA005BFA7F /* InfoPlist.strings */; };
+		9AFE9015184024FA005BFA7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE9014184024FA005BFA7F /* main.m */; };
+		9AFE9019184024FA005BFA7F /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE9018184024FA005BFA7F /* PSAppDelegate.m */; };
+		9AFE901C184024FA005BFA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE901A184024FA005BFA7F /* Main.storyboard */; };
+		9AFE901F184024FA005BFA7F /* PSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE901E184024FA005BFA7F /* PSViewController.m */; };
+		9AFE9021184024FA005BFA7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE9020184024FA005BFA7F /* Images.xcassets */; };
+		9AFE9028184024FA005BFA7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE9027184024FA005BFA7F /* XCTest.framework */; };
+		9AFE9029184024FA005BFA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE9008184024FA005BFA7F /* Foundation.framework */; };
+		9AFE902A184024FA005BFA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE900C184024FA005BFA7F /* UIKit.framework */; };
+		9AFE9032184024FA005BFA7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE9030184024FA005BFA7F /* InfoPlist.strings */; };
+		9AFE9034184024FA005BFA7F /* FungiatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE9033184024FA005BFA7F /* FungiatTests.m */; };
+		9AFE903E1840251D005BFA7F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFE903D1840251D005BFA7F /* MapKit.framework */; };
+		9AFE904118402FDB005BFA7F /* mapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE903F18402FDB005BFA7F /* mapIcon.png */; };
+		9AFE904218402FDB005BFA7F /* mapIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE904018402FDB005BFA7F /* mapIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AFE902B184024FA005BFA7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFE8FFD184024FA005BFA7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFE9004184024FA005BFA7F;
+			remoteInfo = Fungiat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AFE9005184024FA005BFA7F /* Fungiat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fungiat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFE9008184024FA005BFA7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AFE900A184024FA005BFA7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AFE900C184024FA005BFA7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AFE9010184024FA005BFA7F /* Fungiat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fungiat-Info.plist"; sourceTree = "<group>"; };
+		9AFE9012184024FA005BFA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AFE9014184024FA005BFA7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AFE9016184024FA005BFA7F /* Fungiat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fungiat-Prefix.pch"; sourceTree = "<group>"; };
+		9AFE9017184024FA005BFA7F /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		9AFE9018184024FA005BFA7F /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		9AFE901B184024FA005BFA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AFE901D184024FA005BFA7F /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
+		9AFE901E184024FA005BFA7F /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
+		9AFE9020184024FA005BFA7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AFE9026184024FA005BFA7F /* FungiatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FungiatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFE9027184024FA005BFA7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AFE902F184024FA005BFA7F /* FungiatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FungiatTests-Info.plist"; sourceTree = "<group>"; };
+		9AFE9031184024FA005BFA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AFE9033184024FA005BFA7F /* FungiatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FungiatTests.m; sourceTree = "<group>"; };
+		9AFE903D1840251D005BFA7F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9AFE903F18402FDB005BFA7F /* mapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapIcon.png; sourceTree = "<group>"; };
+		9AFE904018402FDB005BFA7F /* mapIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFE9002184024FA005BFA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE900B184024FA005BFA7F /* CoreGraphics.framework in Frameworks */,
+				9AFE900D184024FA005BFA7F /* UIKit.framework in Frameworks */,
+				9AFE903E1840251D005BFA7F /* MapKit.framework in Frameworks */,
+				9AFE9009184024FA005BFA7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFE9023184024FA005BFA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE9028184024FA005BFA7F /* XCTest.framework in Frameworks */,
+				9AFE902A184024FA005BFA7F /* UIKit.framework in Frameworks */,
+				9AFE9029184024FA005BFA7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AFE8FFC184024FA005BFA7F = {
+			isa = PBXGroup;
+			children = (
+				9AFE900E184024FA005BFA7F /* Fungiat */,
+				9AFE902D184024FA005BFA7F /* FungiatTests */,
+				9AFE9007184024FA005BFA7F /* Frameworks */,
+				9AFE9006184024FA005BFA7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFE9006184024FA005BFA7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE9005184024FA005BFA7F /* Fungiat.app */,
+				9AFE9026184024FA005BFA7F /* FungiatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFE9007184024FA005BFA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE903D1840251D005BFA7F /* MapKit.framework */,
+				9AFE9008184024FA005BFA7F /* Foundation.framework */,
+				9AFE900A184024FA005BFA7F /* CoreGraphics.framework */,
+				9AFE900C184024FA005BFA7F /* UIKit.framework */,
+				9AFE9027184024FA005BFA7F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AFE900E184024FA005BFA7F /* Fungiat */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE9017184024FA005BFA7F /* PSAppDelegate.h */,
+				9AFE9018184024FA005BFA7F /* PSAppDelegate.m */,
+				9AFE901A184024FA005BFA7F /* Main.storyboard */,
+				9AFE901D184024FA005BFA7F /* PSViewController.h */,
+				9AFE901E184024FA005BFA7F /* PSViewController.m */,
+				9AFE9020184024FA005BFA7F /* Images.xcassets */,
+				9AFE900F184024FA005BFA7F /* Supporting Files */,
+			);
+			path = Fungiat;
+			sourceTree = "<group>";
+		};
+		9AFE900F184024FA005BFA7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE9010184024FA005BFA7F /* Fungiat-Info.plist */,
+				9AFE9011184024FA005BFA7F /* InfoPlist.strings */,
+				9AFE9014184024FA005BFA7F /* main.m */,
+				9AFE9016184024FA005BFA7F /* Fungiat-Prefix.pch */,
+				9AFE903F18402FDB005BFA7F /* mapIcon.png */,
+				9AFE904018402FDB005BFA7F /* mapIcon@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AFE902D184024FA005BFA7F /* FungiatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE9033184024FA005BFA7F /* FungiatTests.m */,
+				9AFE902E184024FA005BFA7F /* Supporting Files */,
+			);
+			path = FungiatTests;
+			sourceTree = "<group>";
+		};
+		9AFE902E184024FA005BFA7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE902F184024FA005BFA7F /* FungiatTests-Info.plist */,
+				9AFE9030184024FA005BFA7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFE9004184024FA005BFA7F /* Fungiat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFE9037184024FA005BFA7F /* Build configuration list for PBXNativeTarget "Fungiat" */;
+			buildPhases = (
+				9AFE9001184024FA005BFA7F /* Sources */,
+				9AFE9002184024FA005BFA7F /* Frameworks */,
+				9AFE9003184024FA005BFA7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fungiat;
+			productName = Fungiat;
+			productReference = 9AFE9005184024FA005BFA7F /* Fungiat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AFE9025184024FA005BFA7F /* FungiatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFE903A184024FA005BFA7F /* Build configuration list for PBXNativeTarget "FungiatTests" */;
+			buildPhases = (
+				9AFE9022184024FA005BFA7F /* Sources */,
+				9AFE9023184024FA005BFA7F /* Frameworks */,
+				9AFE9024184024FA005BFA7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFE902C184024FA005BFA7F /* PBXTargetDependency */,
+			);
+			name = FungiatTests;
+			productName = FungiatTests;
+			productReference = 9AFE9026184024FA005BFA7F /* FungiatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFE8FFD184024FA005BFA7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pietro Sacco";
+				TargetAttributes = {
+					9AFE9004184024FA005BFA7F = {
+						DevelopmentTeam = 9VR392NC7U;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9AFE9025184024FA005BFA7F = {
+						TestTargetID = 9AFE9004184024FA005BFA7F;
+					};
+				};
+			};
+			buildConfigurationList = 9AFE9000184024FA005BFA7F /* Build configuration list for PBXProject "Fungiat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFE8FFC184024FA005BFA7F;
+			productRefGroup = 9AFE9006184024FA005BFA7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFE9004184024FA005BFA7F /* Fungiat */,
+				9AFE9025184024FA005BFA7F /* FungiatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFE9003184024FA005BFA7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE904218402FDB005BFA7F /* mapIcon@2x.png in Resources */,
+				9AFE9021184024FA005BFA7F /* Images.xcassets in Resources */,
+				9AFE904118402FDB005BFA7F /* mapIcon.png in Resources */,
+				9AFE9013184024FA005BFA7F /* InfoPlist.strings in Resources */,
+				9AFE901C184024FA005BFA7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFE9024184024FA005BFA7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE9032184024FA005BFA7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFE9001184024FA005BFA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE9015184024FA005BFA7F /* main.m in Sources */,
+				9AFE901F184024FA005BFA7F /* PSViewController.m in Sources */,
+				9AFE9019184024FA005BFA7F /* PSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFE9022184024FA005BFA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFE9034184024FA005BFA7F /* FungiatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AFE902C184024FA005BFA7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFE9004184024FA005BFA7F /* Fungiat */;
+			targetProxy = 9AFE902B184024FA005BFA7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AFE9011184024FA005BFA7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFE9012184024FA005BFA7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AFE901A184024FA005BFA7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFE901B184024FA005BFA7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AFE9030184024FA005BFA7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFE9031184024FA005BFA7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AFE9035184024FA005BFA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AFE9036184024FA005BFA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFE9038184024FA005BFA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fungiat/Fungiat-Prefix.pch";
+				INFOPLIST_FILE = "Fungiat/Fungiat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AFE9039184024FA005BFA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fungiat/Fungiat-Prefix.pch";
+				INFOPLIST_FILE = "Fungiat/Fungiat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AFE903B184024FA005BFA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fungiat.app/Fungiat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fungiat/Fungiat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FungiatTests/FungiatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AFE903C184024FA005BFA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fungiat.app/Fungiat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fungiat/Fungiat-Prefix.pch";
+				INFOPLIST_FILE = "FungiatTests/FungiatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFE9000184024FA005BFA7F /* Build configuration list for PBXProject "Fungiat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFE9035184024FA005BFA7F /* Debug */,
+				9AFE9036184024FA005BFA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFE9037184024FA005BFA7F /* Build configuration list for PBXNativeTarget "Fungiat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFE9038184024FA005BFA7F /* Debug */,
+				9AFE9039184024FA005BFA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFE903A184024FA005BFA7F /* Build configuration list for PBXNativeTarget "FungiatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFE903B184024FA005BFA7F /* Debug */,
+				9AFE903C184024FA005BFA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AFE8FFD184024FA005BFA7F /* Project object */;
+}
